@@ -66,6 +66,9 @@ function removeFromCart(item) {
 
 function placeOrder(cardNumber) {
   // write your code here
+  let totalValue = 0;
+  totalValue = total();
+  cart = [];
   if (cardNumber){
     let totalValue = 0;
     totalValue = total();
