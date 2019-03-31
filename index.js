@@ -76,8 +76,5 @@ function placeOrder(cardNumber) {
 }
 
 
-
-
-
-
 }
+viewCart()
