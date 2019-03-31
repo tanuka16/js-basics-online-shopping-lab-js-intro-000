@@ -45,11 +45,11 @@ function viewCart() {
 
 function total() {
   // write your code here
-  let total = 0;
+  let totalValue = 0;
   for (let i = 0; i < cart.length; i++){
     total += cart[i].itemPrice;
   }
-  return total;
+  return totalValue;
 }
 
 function removeFromCart(item) {
@@ -71,7 +71,7 @@ function placeOrder(cardNumber) {
     cart = []
   return "Your total cost is " + totalCost + ", " + "which will be charged to the card " + cardNumber + "."
   } else {
-    
+
     return "Sorry, we don't have a credit card on file for you."
 }
 
