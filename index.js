@@ -78,3 +78,4 @@ function placeOrder(cardNumber) {
 
 }
 viewCart()
+total()
