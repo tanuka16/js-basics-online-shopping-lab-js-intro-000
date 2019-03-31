@@ -77,6 +77,4 @@ function placeOrder(cardNumber) {
     console.log(`Your total cost is \$${getTotal}, which will be charged to the card ${cardNumber}.`)
   }
 
-
-
 }
