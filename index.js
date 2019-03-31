@@ -68,6 +68,8 @@ function placeOrder(cardNumber) {
   // write your code here
   if (cardNumber){
     let totalCost = total
+    cart = []
+    return "Your total cost is " + totalCost + 
   }
 
 
