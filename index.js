@@ -69,7 +69,8 @@ function placeOrder(cardNumber) {
   let totalValue=[];
   totalValue = total();
 
-  if (cardNumber===undefined || (cardNumber===null || cardNumber.length <= 0){
+  if (cardNumber===undefined || (cardNumber===null || cardNumber.length <= 0)
+  {
     return "Sorry, we don't have a credit card on file for you.";
   }
   else {
